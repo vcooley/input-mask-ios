@@ -18,7 +18,7 @@ import Foundation
  
  - seealso: ```Compiler```, ```State``` and ```CaretString``` classes.
  */
-public class Mask: CustomDebugStringConvertible, CustomStringConvertible {
+@objc public class Mask: CustomDebugStringConvertible, CustomStringConvertible {
     
     /**
      ### Result
