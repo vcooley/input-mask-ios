@@ -241,13 +241,13 @@ import Foundation
         return length
     }
     
-    public var debugDescription: String {
+    public override var debugDescription: String {
         get {
             return self.initialState.debugDescription
         }
     }
     
-    public var description: String {
+    public override var description: String {
         get {
             return self.debugDescription
         }
