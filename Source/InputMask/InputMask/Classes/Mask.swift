@@ -25,7 +25,7 @@ import Foundation
      
      The end result of mask application to the user input string.
      */
-    public struct Result: CustomDebugStringConvertible, CustomStringConvertible {
+    @objc public struct Result: CustomDebugStringConvertible, CustomStringConvertible {
         
         /**
          Formatted text with updated caret position.
