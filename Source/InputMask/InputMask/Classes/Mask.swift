@@ -1,4 +1,4 @@
-//
+ //
 //  InputMask
 //
 //  Created by Egor Taflanidi on 10.08.28.
@@ -25,7 +25,7 @@ import Foundation
      
      The end result of mask application to the user input string.
      */
-    @objc public struct Result: CustomDebugStringConvertible, CustomStringConvertible {
+    public struct Result: CustomDebugStringConvertible, CustomStringConvertible {
         
         /**
          Formatted text with updated caret position.
